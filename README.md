@@ -49,7 +49,7 @@ The objective was to ensure that the dataset was sufficiently clean and consiste
 
 After cleaning, the data was structured for dashboard analysis.
 
-<img src="Pictures\Loan_grade.jpg" width="1000">
+<img src="Pictures\Data Modelling.png" width="700">
 
 Key analytical measures include:
 
@@ -156,25 +156,9 @@ Priority should be given to:
 -   Channel optimization
 -   Staffing and inventory planning
 
-------------------------------------------------------------------------
-
 ## 5.2 Sales Performance Is Highly Concentrated in Walk-in Channel
 
-
-
-### Finding
-
-December channel revenue:
-
-  - Walk-in             **48K**
-  
-  - App                 **23K**
-  
-  - Quick Commerce      **13K**
-  
-  - Home Delivery        **6K**
-  
-  - Telemedicine Rx      **4K**
+<img src="Pictures\RevenuebyChannel.png" width="700">
 
 ### Business Interpretation
 
@@ -196,8 +180,6 @@ Therefore, management should maintain Walk-in as the core revenue channel while 
 > **Action:** Protect the core, diversify the growth.
 Maintain Walk-in performance while investing selectively in App and Quick Commerce through targeted promotions, customer retention initiatives, and digital-channel adoption.
 
-------------------------------------------------------------------------
-
 ## 5.3 Discount Leakage Is Concentrated in Walk-in Transactions
 
 ### Finding
@@ -207,6 +189,8 @@ The decomposition shows:
 -   **Walk-in:** 8.23K, approximately **44.4%** of total discount
 -   **UPI:** 3.61K
 -   **No Campaign:** 1.61K within the drilled Walk-in + UPI path
+
+<img src="Pictures\Composition.png" width="700">
 
 ### Business Interpretation
 
@@ -222,8 +206,6 @@ Recommended Action:
 
 > Review Walk-in discount policies, particularly transactions without campaigns, and introduce clearer discount rules, approval thresholds, and campaign tracking to improve discount efficiency.
 
-------------------------------------------------------------------------
-
 ## 5.4 Sales Activity Peaks During 18:00–21:00
 
 ### Finding
@@ -231,6 +213,8 @@ Recommended Action:
 The Day × Hour heatmap shows concentrated activity during the evening period, particularly around:
 
 **18:00 → 19:00 → 20:00 → 21:00**
+
+<img src="Pictures\Heatmap.png" width="700">
 
 ### Business Interpretation
 
@@ -247,32 +231,6 @@ The company has an opportunity to better align resources with customer demand. I
 ------------------------------------------------------------------------
 
 # 6. Recommendations
-
-The recommendations are prioritized by **business impact, confidence and implementation urgency**.
-
-  -----------------------------------------------------------------------------------------
-  Priority       Recommendation              Expected Impact  Owner          Timing
-  -------------- --------------------------- ---------------- -------------- --------------
-  🔴 High        Implement approval controls Recover          Store          Jan 2026
-                 for non-campaign Walk-in    \~3--5K/month    Operations     
-                 discounts                                    Manager        
-
-  🔴 High        Maintain                    Sustain          Pharmacy / QC  Ongoing
-                 prescription-verification   return-leakage   Lead           
-                 controls for chronic        reduction                       
-                 refills                                                     
-
-  🟠 Medium      Prepare staffing and        Reduce lost      Store          Jan 2026
-                 inventory for the           sales during     Operations     
-                 18:00--21:00 peak           peak demand      Manager        
-
-  🟠 Medium      Bundle Wellness & FMCG with Potential +3--5% Category       Jan--Feb 2026
-                 prescription orders         AOV              Manager        
-
-  🟠 Medium      Test increased Quick        Validate and     Digital        Jan 2026
-                 Commerce marketing spend    scale emerging   Channel Lead   
-                                             channel                         
-  -----------------------------------------------------------------------------------------
 
 ### Recommended Management Priorities
 
@@ -357,14 +315,12 @@ The most important analytical lessons are:
 
 ### Sales Performance Overview
 
-![Sales Performance Overview](assets/dashboard_overview.png)
+<img src="Pictures/Dashboard_page-0001.jpg" width="700">
 
 ### Diagnostic Root Cause Analysis
 
-![Diagnostic Root Cause Analysis](assets/dashboard_diagnostic.png)
+<img src="Pictures/Dashboard_page-0002.jpg" width="700">
 
 ### Store & Product Drill-through
 
-![Store & Product Drill-through](assets/dashboard_drillthrough.png)
-
-------------------------------------------------------------------------
+<img src="Pictures/Dashboard_page-0003.jpg" width="700">

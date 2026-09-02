@@ -1,7 +1,8 @@
-# Retail Pharmacy Sales Performance & Diagnostic Root Cause Analysis
+# Sales Performance & Diagnostic Root Cause Analysis
 
-> **Power BI \| Sales Analytics \| Diagnostic Analytics \| Retail
-> Pharmacy**
+> **Power BI \| Sales Analytics \| Diagnostic Analytics**
+
+<img src="https://img.shields.io/badge/Power%20BI-Experienced-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI Skill Badge"> <img src="https://img.shields.io/badge/KPI%20Development-Experienced-96CEB4?style=flat" alt="KPI Development Skill Badge">
 
 ## 1. Project Overview
 

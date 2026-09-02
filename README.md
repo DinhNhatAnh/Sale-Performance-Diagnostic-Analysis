@@ -135,6 +135,8 @@ The FY2025 trend shows a recurring seasonal shape:
 
 -   **Jan--Jun:** approximately 60--90K/month
 -   **Oct--Nov:** approximately 100--120K/month
+-   
+<img src="Pictures\RevenuebyMonth.png" width="700">
 
 This indicates that the Q1 2026 revenue base may naturally be lower than the Q4 2025 peak.
 
@@ -190,7 +192,7 @@ The decomposition shows:
 -   **UPI:** 3.61K
 -   **No Campaign:** 1.61K within the drilled Walk-in + UPI path
 
-<img src="Pictures\Composition.png" width="700">
+<img src="Pictures\Decomposition.png" width="700">
 
 ### Business Interpretation
 
@@ -214,7 +216,7 @@ The Day × Hour heatmap shows concentrated activity during the evening period, p
 
 **18:00 → 19:00 → 20:00 → 21:00**
 
-<img src="Pictures\Heatmap.png" width="700">
+<img src="Pictures\Heatmap.png" width="500">
 
 ### Business Interpretation
 
@@ -315,12 +317,12 @@ The most important analytical lessons are:
 
 ### Sales Performance Overview
 
-<img src="Pictures/Dashboard_page-0001.jpg" width="700">
+<img src="Pictures/Overview.jpg" width="700">
 
 ### Diagnostic Root Cause Analysis
 
-<img src="Pictures/Dashboard_page-0002.jpg" width="700">
+<img src="Pictures/Root Cause.jpg" width="700">
 
 ### Store & Product Drill-through
 
-<img src="Pictures/Dashboard_page-0003.jpg" width="700">
+<img src="Pictures/Drill-though.jpg" width="700">
